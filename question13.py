@@ -7,4 +7,4 @@ def csv_write(filename, my_list):
         for element in my_list:
             csv_writer.writerow(element)
 
-csv_write('csv-file.txt', [('George', '4312 Abbey Road', 22), ('John', '54 Love Ave', 21)])
+csv_write('csv-file.csv', [('George', '4312 Abbey Road', 22), ('John', '54 Love Ave', 21)])
